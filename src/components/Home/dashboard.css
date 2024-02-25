@@ -3,11 +3,12 @@
   flex-direction: column;
   align-items: center;
   padding: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 4rem;
 }
 
 .rain-icon {
-  font-size: 2rem;
+  margin-top: 1rem;
+  font-size: 5rem;
   margin-bottom: 10px;
   margin-right: 10px;
   font-weight: bold;
@@ -26,24 +27,28 @@
 
 .day-date {
   padding: 0;
-  margin-left: 25px;
+  font-size: 2em;
+  margin-left: 2em;
   margin-top: -15px;
-  margin-bottom: 10px;
+  margin-bottom: 1.75em;
   color: white;
 }
 
 .temperature {
-  font-size: 4rem;
+  font-size: 15em;
 }
 
 .temperature .c {
-  font-size: 0.5em;
+  font-size: 0.4em;
   vertical-align: super;
   margin-left: 5px;
+  margin-bottom: -10px;
 }
 
 .location {
   color: #fff;
+  font-size: 2em;
+  margin-bottom: 1em;
 }
 
 .edit-icon {
@@ -54,6 +59,7 @@
 .feels-like {
   margin-top: 5px;
   color: #fff;
+  font-size: 2.2em;
 }
 
 .dot {

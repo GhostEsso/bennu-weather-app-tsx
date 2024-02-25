@@ -67,7 +67,7 @@ const Weather: React.FC = () => {
         </a>
       </div>
 
-      <div className="weather">{generateWeatherCards(7)}</div>
+      <div className="weather">{generateWeatherCards(5)}</div>
     </div>
   );
 };

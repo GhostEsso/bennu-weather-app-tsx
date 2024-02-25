@@ -29,8 +29,8 @@
 
   Client
   
-- HTML, CSS, JS, REACT
-- Technologies Used: HTML, CSS, JS, REACT, GIT
+REACT, TS(Typescript), CSS, BOOTSTRAP
+- Technologies Used: CSS, TS, REACT, GIT
 
 ### Key Features <a name="key-features"></a>
 
@@ -43,7 +43,12 @@
 
 ## Live Demo <a name="live-demo"></a>
 
-- [Link to Live Demo](#) (Replace with your live demo link)
+- [Link to Live Demo](https://bennu-weather-app-tsx.vercel.app/)
+
+![alt text](image.png)
+
+
+![alt text](image-1.png)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -62,7 +67,7 @@ In order to run this project, you need:
 
 Clone this repository to your desired folder:
 
-- `git clone [repository_url]`
+- `git clone [https://github.com/GhostEsso/bennu-weather-app-tsx]`
 - `cd bennu-weather-forecast-app`
 
 ### Install
@@ -77,11 +82,11 @@ Run the application:
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Your Name**
+👤 **Essohanam TAMBANA**
 
-- GitHub: [@YourGitHubUsername](https://github.com/YourGitHubUsername)
-- Twitter: [@YourTwitterUsername](https://twitter.com/YourTwitterUsername)
-- LinkedIn: [Your LinkedIn Profile](https://www.linkedin.com/in/your-linkedin-profile/)
+- GitHub: [@GhostEsso](https://github.com/GhostEsso)
+- Twitter: [@TambanaEssohanam](https://twitter.com/TambanaEssohana)
+- LinkedIn: [@TambanaEssohanam](https://www.linkedin.com/in/essohanam-tambana/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -109,7 +114,7 @@ If you like this project, please give it a star! If you have suggestions on how 
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-- Thank you to Microverse for providing the opportunity to learn and work on projects.
+- Thanks you to Bennu for providing the opportunity to learn and work on that test! I've learned a lot.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

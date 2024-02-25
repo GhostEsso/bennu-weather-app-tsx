@@ -1,0 +1,85 @@
+.Panel {
+  border: 2px solid rgb(245, 245, 245);
+  border-radius: 20px;
+  padding: 15px;
+  margin: 30px 20px;
+  height: 20vh;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(99, 86, 86, 0.308); /* Ajout de l'ombre */
+}
+
+.first {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.wi-day-cloudy {
+  color: #4995e9;
+  margin-left: 10px;
+}
+
+.temperature1 h5 {
+  font-size: 20px;
+  font-weight: bolder;
+  margin-left: 3.5em;
+}
+
+.second {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.wind h3 {
+  font-size: 15px;
+}
+
+.km h3 {
+  font-size: 15px;
+  margin-left: 3em;
+  color: rgb(167, 163, 163);
+}
+
+.humidity h3 {
+  font-size: 15px;
+  margin-left: 1em;
+  margin-right: 1em;
+  font-weight: bolder;
+}
+
+.percent h3 {
+  font-size: 15px;
+  color: rgb(167, 163, 163);
+}
+
+.third {
+  display: flex;
+  gap: 15px;
+}
+
+.visibility h3 {
+  font-size: 15px;
+}
+
+.kml h3 {
+  font-size: 15px;
+  color: rgb(167, 163, 163);
+  margin-left: 1.5em;
+}
+
+.uv h3 {
+  font-size: 15px;
+  margin-left: 1em;
+}
+
+.one h3 {
+  font-size: 15px;
+  color: rgb(167, 163, 163);
+  margin-left: 3em;
+}

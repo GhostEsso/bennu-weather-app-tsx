@@ -1,10 +1,17 @@
 import React from 'react';
-import './App.css';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import HomePage from './components/Home/HomePage';
+import SecondPage from './components/Second/SecondPage';
 
-function App() {
+const App: React.FC = () => {
   return (
-    <div className="App" />
+    <Router>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/second-page" element={<SecondPage />} />
+      </Routes>
+    </Router>
   );
-}
+};
 
 export default App;

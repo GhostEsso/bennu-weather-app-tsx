@@ -1,0 +1,22 @@
+.nextPart {
+    margin-left: 20px;
+  }
+  
+  .nextP {
+    color: #28335e;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  .arrowP {
+    color: #28335e;
+    margin-left: -10px;
+    margin-bottom: 50px;
+    font-size: 30px;
+  }
+  
+  h1 {
+    margin-left: -10px;
+    font-weight: bolder;
+  }
+  

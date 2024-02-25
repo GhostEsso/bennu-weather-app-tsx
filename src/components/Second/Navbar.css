@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Poiret+One&display=swap");
+
+.nav-bar {
+  display: flex;
+}
+
+.NavContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 10px;
+  margin-top: 10px;
+  gap: 50px;
+  margin-bottom: 10px;
+}
+
+.NavbarMenu {
+  display: flex;
+  align-items: center;
+}
+
+.BiList {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 10px;
+}
+
+.line11 {
+  width: 35px;
+  height: 2px;
+  background-color: #28335e;
+}
+
+.line22 {
+  width: 17px;
+  height: 2px;
+  background-color: #28335e;
+}
+
+.NavbaBrand {
+  align-items: center;
+}
+
+.NavbaTitle {
+  font-family: "Poiret One", cursive;
+  font-size: 20px;
+}

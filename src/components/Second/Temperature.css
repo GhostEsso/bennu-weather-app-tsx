@@ -1,158 +1,188 @@
 .temperature {
-    display: flex;
-    margin-left: 0.1em;
-  }
-  
-  .days {
-    margin-bottom: 20px;
-  }
-  
-  .days div {
-    width: 100px;
-    text-align: center;
-    position: relative;
-  }
-  
-  .days h1 {
-    font-size: 20px;
-    margin-top: 20px;
-  }
-  
-  .days h2 {
-    font-size: 10px;
-  }
-  
-  .days h2::before {
-    content: "\1F4A7";
-    font-size: 12px;
-    margin-right: 3px;
-    display: inline-block;
-    color: #4b95e4;
-  }
-  
-  .clouds {
-    font-size: 20px;
-    margin-top: 1em;
-    margin-left: 0.1em;
-  }
-  
-  .cloudy {
-    margin-bottom: 1.25em;
-  }
-  
-  .cloudy .wi-day-sunny {
-    color: rgb(194, 194, 10);
-    margin-left: 10px;
-    margin-bottom: 1em;
-    font-size: 1em;
-  }
-  
-  .cloudy .wi-day-hail {
-    color: rgb(2, 6, 44);
-    margin-left: 10px;
-    font-size: 1em;
-    margin-bottom: 1em;
-  }
-  
-  .cloudy .wi-day-lightning {
-    margin-left: 10px;
-    margin-bottom: 20px;
-  }
-  
-  .cloudy .wi-day-sleet-storm {
-    margin-left: 10px;
-    margin-bottom: 15px;
-  }
-  
-  .degrees h1 {
-    margin-left: 2.5em;
-    margin-top: 20px;
-    color: rgb(184, 190, 194);
-    font-size: 0.3em;
-  }
-  
-  .one h1 {
-    margin-bottom: 1.95em;
-  }
-  
-  .two h1 {
-    margin-bottom: 2.75em;
-  }
-  
-  .three h1 {
-    margin-bottom: 1.95em;
-  }
-  
-  .four h1 {
-    margin-bottom: 1.95em;
-  }
-  
-  .five h1 {
-    margin-bottom: 2.5em;
-  }
-  
-  .we {
-    margin-top: 23px;
-    display: flex;
-    flex-direction: column;
-    margin-left: 0.2em;
-    gap: 45px;
-  }
-  
-  .num {
-    font-size: 10px;
-    margin-left: 25px;
-    margin-top: -4em;
-    margin-bottom: -2em;
-    color: rgb(175, 169, 169);
-  }
-  
-  .sunz {
-    width: 3rem;
-    height: 25px;
-    border-radius: 15px;
-    margin-bottom: -12px;
-    background: linear-gradient(to right, red 80%, grey 20%);
-  }
-  
-  .ra {
-    width: 100%;
-    height: 25px;
-    border-radius: 15px;
-    background: linear-gradient(to right, red 65%, grey 35%);
-  }
-  
-  .he-ra {
-    width: 100%;
-    height: 25px;
-    border-radius: 15px;
-    background: linear-gradient(to right, red 45%, grey 55%);
-  }
-  
-  .degre h1 {
-    margin-left: 1em;
-    margin-top: 20px;
-    color: rgb(2, 6, 44);
-    font-size: 0.3em;
-  }
-  
-  .on h1 {
-    margin-bottom: 1.95em;
-  }
-  
-  .tw h1 {
-    margin-bottom: 2.75em;
-  }
-  
-  .thre h1 {
-    margin-bottom: 1.95em;
-  }
-  
-  .fou h1 {
-    margin-bottom: 1.95em;
-  }
-  
-  .fiv h1 {
-    margin-bottom: 2.5em;
-  }
-  
+  display: flex;
+  margin-left: 0.2em;
+}
+
+.days > div:not(:last-child) {
+  margin-bottom: 115px;
+}
+
+.days div {
+  width: 100px;
+  text-align: center;
+  position: relative;
+}
+
+.days h1 {
+  font-size: 0.2em;
+  margin-top: 20px;
+}
+
+.days h2 {
+  font-size: 0.15em;
+}
+
+.days h2::before {
+  content: "\1F4A7";
+  font-size: 0.6em;
+  margin-right: 3px;
+  display: inline-block;
+  color: #4b95e4;
+}
+
+/* Ajoutez ceci à votre fichier CSS */
+.clouds > div:not(:last-child) {
+  margin-bottom: 115px; /* ou toute autre valeur souhaitée pour l'espace vertical */
+}
+
+.clouds {
+  font-size: 20px;
+  margin-top: 1em;
+  margin-left: 0.1em;
+}
+
+.cloudy {
+  margin-bottom: 1.25em;
+}
+
+.cloudy .wi-day-sunny {
+  color: rgb(194, 194, 10);
+  margin-left: 1.5em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  font-size: 3em;
+}
+
+.cloudy .wi-day-hail {
+  color: rgb(2, 6, 44);
+  margin-left: 1.5em;
+  font-size: 3em;
+  margin-top: -3em;
+  margin-bottom: 1em;
+}
+
+.cloudy .wi-day-lightning {
+  margin-left: 1.5em;
+  margin-bottom: 1em;
+  font-size: 3em;
+}
+
+.cloudy .wi-day-sleet-storm {
+  margin-left: 1.5em;
+  margin-bottom: 1em;
+  font-size: 3em;
+}
+
+.degrees h1 {
+  margin-left: 2.5em;
+
+  color: rgb(184, 190, 194);
+  font-size: 0.3em;
+}
+
+.one h1 {
+  font-size: 0.19em;
+  margin-top: 10px;
+  margin-bottom: 4em;
+}
+
+.two h1 {
+  font-size: 0.19em;
+  margin-bottom: 3.5em;
+}
+
+.three h1 {
+  font-size: 0.19em;
+  margin-bottom: 4em;
+}
+
+.four h1 {
+  font-size: 0.19em;
+  margin-bottom: 4em;
+}
+
+.five h1 {
+  font-size: 0.19em;
+  margin-bottom: 4em;
+}
+
+.six h1 {
+  font-size: 0.19em;
+}
+
+.we {
+  margin-top: 23px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 0.3em;
+  gap: 45px;
+}
+
+.num {
+  font-size: 0.1em;
+  margin-left: 25px;
+  margin-top: -2em;
+  margin-bottom: -1.1em;
+  color: rgb(175, 169, 169);
+}
+
+.sunz {
+  width: 1em;
+  height: 2vh;
+  border-radius: 20px;
+  margin-bottom: 0.6em;
+  background: linear-gradient(to right, red 80%, grey 20%);
+}
+
+.ra {
+  width: 100%;
+  height: 2vh;;
+  border-radius: 20px;
+  margin-bottom: 0.5em;
+  background: linear-gradient(to right, red 65%, grey 35%);
+}
+
+.he-ra {
+  width: 100%;
+  height: 2vh;
+  border-radius: 20px;
+  margin-bottom: 0.6em;
+  background: linear-gradient(to right, red 45%, grey 55%);
+}
+
+.degre h1 {
+  margin-left: 2em;
+  margin-top: 20px;
+  color: rgb(2, 6, 44);
+  font-size: 0.3em;
+}
+
+.on h1 {
+  font-size: 0.2em;
+  margin-bottom: 3.75em;
+}
+
+.tw h1 {
+  font-size: 0.2em;
+  margin-bottom: 3.1em;
+}
+
+.thre h1 {
+  font-size: 0.2em;
+  margin-bottom: 3.9em;
+}
+
+.fou h1 {
+  font-size: 0.2em;
+  margin-bottom: 3.7em;
+}
+
+.fiv h1 {
+  font-size: 0.2em;
+  margin-bottom: 3.3em;
+}
+
+.si h1 {
+  font-size: 0.2em;
+  margin-bottom: 2.5em;
+}

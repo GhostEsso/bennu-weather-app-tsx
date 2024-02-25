@@ -1,22 +1,24 @@
 .nextPart {
-    margin-left: 20px;
+    margin-left: 4.5em;
+    margin-top: 2em;
+    margin-bottom: 5em;
   }
   
   .nextP {
     color: #28335e;
     text-decoration: none;
-    font-size: 20px;
   }
   
   .arrowP {
     color: #28335e;
     margin-left: -10px;
-    margin-bottom: 50px;
-    font-size: 30px;
+    margin-bottom: 3em;
+    font-size: 5em;
   }
   
   h1 {
     margin-left: -10px;
     font-weight: bolder;
+    font-size: 4em;
   }
   

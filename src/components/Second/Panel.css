@@ -1,8 +1,10 @@
 .Panel {
   border: 2px solid rgb(245, 245, 245);
   border-radius: 20px;
-  padding: 15px;
-  margin: 30px 20px;
+  padding: 3em;
+  margin-left: 4em;
+  margin-right: 4em;
+  margin-bottom: 4em;
   height: 20vh;
   background-color: white;
   box-shadow: 0 0 10px rgba(99, 86, 86, 0.308); /* Ajout de l'ombre */
@@ -11,75 +13,84 @@
 .first {
   display: flex;
   gap: 15px;
-  margin-bottom: 15px;
+  margin-bottom: 4em;
 }
 
 h3 {
-  font-size: 20px;
+  font-size: 3em;
   font-weight: bolder;
 }
 
 .wi-day-cloudy {
   color: #4995e9;
-  margin-left: 10px;
+  margin-left: 1.5em;
+  font-size: 3em;
 }
 
 .temperature1 h5 {
-  font-size: 20px;
+  font-size: 3em;
   font-weight: bolder;
   margin-left: 3.5em;
 }
 
+.temperature2 h6 {
+  font-size: 2.5em;
+  font-weight: bolder;
+  margin-top: 5px;
+  margin-left: 0.75em;
+  color: rgb(150, 139, 139);
+}
+
 .second {
   display: flex;
-  gap: 15px;
-  margin-bottom: 15px;
+  gap: 2.5em;
+  margin-bottom: 4em;
 }
 
 .wind h3 {
-  font-size: 15px;
+  font-size: 2.5em;
 }
 
 .km h3 {
-  font-size: 15px;
+  font-size: 2.5em;
   margin-left: 3em;
   color: rgb(167, 163, 163);
 }
 
 .humidity h3 {
-  font-size: 15px;
+  font-size: 2.5em;
   margin-left: 1em;
   margin-right: 1em;
   font-weight: bolder;
 }
 
 .percent h3 {
-  font-size: 15px;
+  font-size: 2.5em;
   color: rgb(167, 163, 163);
 }
 
 .third {
   display: flex;
-  gap: 15px;
+  gap: 2.5em;
 }
 
 .visibility h3 {
-  font-size: 15px;
+  font-size: 2.5em;
 }
 
 .kml h3 {
-  font-size: 15px;
+  font-size: 2.5em;
   color: rgb(167, 163, 163);
   margin-left: 1.5em;
 }
 
 .uv h3 {
-  font-size: 15px;
+  font-size: 2.5em;
   margin-left: 1em;
 }
 
 .one h3 {
-  font-size: 15px;
+  font-size: 2.5em;
   color: rgb(167, 163, 163);
   margin-left: 3em;
 }

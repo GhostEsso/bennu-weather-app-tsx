@@ -114,7 +114,7 @@ If you like this project, please give it a star! If you have suggestions on how 
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-- Thanks you to Bennu for providing the opportunity to learn and work on that test! I've learned a lot.
+- Thanks to Bennu for providing the opportunity to learn and work on that test! I've learned a lot.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

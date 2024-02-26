@@ -5,7 +5,7 @@
   - [🛠 Built With](#-built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [Live Demo](#live-demo)
+  - [Screen Shots](#screen-shots)
   - [💻 Getting Started](#-getting-started)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
@@ -41,9 +41,7 @@ REACT, TS(Typescript), CSS, BOOTSTRAP
 
 <!-- LIVE DEMO -->
 
-## Live Demo <a name="live-demo"></a>
-
-- [Link to Live Demo](https://bennu-weather-app-tsx.vercel.app/)
+## Screen Shots <a name="screen-shots"></a>
 
 ![alt text](image.png)
 
